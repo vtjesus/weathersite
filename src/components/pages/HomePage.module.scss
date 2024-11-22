@@ -1,0 +1,68 @@
+.back {
+  background: url("https://wallpapercave.com/wp/wp8617064.jpg") center/cover;
+  color: inherit; 
+  padding: 20px;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.daysButtons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #15009f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
+  &:hover {
+    background-color: #535bf2;
+    transform: scale(1.05);
+  }
+}
+
+button.activeButton {
+  background-color: #535bf2;
+}
+
+.forecastList {
+  display: flex; 
+  gap: 15px; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.forecastItem {
+  flex: 1 1 calc(25% - 15px); 
+  max-width: 200px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: inherit; 
+  text-align: center;
+  transition: background-color 0.3s;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  @media (max-width: 768px) {
+    flex: 1 1 calc(50% - 15px); 
+  }
+}

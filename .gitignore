@@ -1,0 +1,62 @@
+# IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Build output
+.next/
+out/
+dist/
+build/
+coverage/
+target/
+
+# Node.js dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Package manager files
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+.yarn/
+.yarnrc
+.yarnrc.yml
+.yarn-integrity
+
+
+# Vercel and Turbo config
+.vercel
+.turbo
+
+# Debug and error logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn/install-state.gz
+
+# SSL certificates
+*.pem
+
+# Next.js specific
+next-env.d.ts
+
+# Compilation output
+*.class
+*.jar
+
+# Unnecessary files
+Thumbs.db
+*.log
+
+# Executables and media files
+*.app
+*.exe
+*.war
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv

@@ -1,0 +1,28 @@
+.Search {
+  padding: 30px 0 0 0;
+  .content {
+    text-align: center;
+    .text {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+    .search {
+      display: flex;
+      justify-content: center;
+      input {
+        width: 300px;
+        padding: 10px;
+        font-size: 17px;
+        border-radius: 7px 0 0 7px;
+      }
+      button {
+        width: 40px;
+        font-size: 20px;
+        border-radius: 0 7px 7px 0;
+        &:hover {
+          color: #1313ff;
+        }
+      }
+    }
+  }
+}

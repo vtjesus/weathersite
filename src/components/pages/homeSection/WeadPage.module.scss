@@ -1,0 +1,30 @@
+.WeadPage {
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    .head {
+      color: #ffffff;
+      width: 500px;
+      height: 10vh;
+      border-radius: 10px 10px 0 0;
+      backdrop-filter: blur(20px);
+      .hourSlide {
+        text-align: center;
+      }
+    }
+    .foot {
+      color: #ffffff;
+      width: 500px;
+      height: 60vh;
+      backdrop-filter: blur(20px);
+      border-radius: 0 0 10px 10px;
+      .dayForecast {
+        align-items: center;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
